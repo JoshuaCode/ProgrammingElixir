@@ -1,0 +1,8 @@
+exercise_functions2 = fn
+{0, 0, c} -> "FizzBuzz"
+{0,b,c} -> "Fizz"
+{a,b,c} -> c
+end
+exercise_functions2.(0,0,3)
+exercise_functions2.(0,2,3)
+exercise_functions2.(1,2,3)
